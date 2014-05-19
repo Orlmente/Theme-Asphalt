@@ -783,23 +783,6 @@
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
         "layer0.opacity": 1
     },
-    // Sidebar folder closed
-    {
-        "class": "disclosure_button_control",
-        "settings": ["soda_folder_icons"],
-        "layer0.texture": "Theme - NoNameFlat/NoNameFlat/folder-closed.png"
-    },
-    {
-        "class": "disclosure_button_control",
-        "settings": ["soda_folder_icons"],
-        "parents": [{"class": "tree_row","attributes": ["hover"]}]
-    },
-    {
-        "class": "disclosure_button_control",
-        "settings": ["soda_folder_icons"],
-        "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "layer0.texture": "Theme - NoNameFlat/NoNameFlat/folder-closed.png"
-    },
     // Sidebar group open
     {
         "class": "disclosure_button_control",
@@ -817,38 +800,83 @@
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
         "layer0.texture": "Theme - NoNameFlat/NoNameFlat/folder-open.png"
     },
-    // Sidebar folder open
-    {
-        "class": "disclosure_button_control",
-        "settings": ["soda_folder_icons"],
-        "attributes": ["expanded"],
-        "layer0.texture": "Theme - NoNameFlat/NoNameFlat/folder-open.png"
-    },
-    {
-        "class": "disclosure_button_control",
-        "settings": ["soda_folder_icons"],
-        "attributes": ["expanded"],
-        "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "layer0.texture": "Theme - NoNameFlat/NoNameFlat/folder-open.png"
-    },
-    {
-        "class": "disclosure_button_control",
-        "settings": ["soda_folder_icons"],
-        "attributes": ["expanded"],
-        "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "layer0.texture": "Theme - NoNameFlat/NoNameFlat/folder-open.png"
-    },
-    // Icons build 3062
+    // Icons (build 3062+)
     {
         "class": "icon_file_type",
+        // layer0.texture is filled in by code with the relevant icon name
+        "layer0.tint": [215, 215, 220],
+        "layer0.opacity": 0.5,
+        "content_margin": [8, 8]
+    },
+    {
+        "class": "icon_file_type",
+        "parents": [{"class": "tree_row","attributes": ["hover"]}],
+        "layer0.tint": [215, 65, 65],
+        "layer0.opacity": 1
+    },
+    {
+        "class": "icon_file_type",
+        "parents": [{"class": "tree_row","attributes": ["selected"]}],
+        "layer0.tint": [215, 215, 220],
+        "layer0.opacity": 1
+    },
+    {
+        "class": "icon_folder",
+        "layer0.texture": "Theme - NoNameFlat/icons/folder.png",
+        "layer0.tint": [215, 215, 220],
+        "layer0.opacity": 0.5,
+        "content_margin": [8, 8]
+    },
+    {
+        "class": "icon_folder",
+        "parents": [{"class": "tree_row","attributes": ["hover"]}],
+        "layer0.tint": [215, 65, 65],
+        "layer0.opacity": 1
+    },
+    {
+        "class": "icon_folder",
+        "parents":
+        [
+            { "class": "tree_row", "attributes": ["expanded"] }
+        ],
+        "layer0.texture": "Theme - NoNameFlat/icons/folder_open.png"
+    },
+    {
+        "class": "icon_folder_loading",
+        "layer0.texture":
+        {
+            "keyframes":
+            [
+                "Theme - NoNameFlat/icons/spinner7.png",
+                "Theme - NoNameFlat/icons/spinner6.png",
+                "Theme - NoNameFlat/icons/spinner5.png",
+                "Theme - NoNameFlat/icons/spinner4.png",
+                "Theme - NoNameFlat/icons/spinner3.png",
+                "Theme - NoNameFlat/icons/spinner2.png",
+                "Theme - NoNameFlat/icons/spinner1.png",
+                "Theme - NoNameFlat/icons/spinner.png",
+            ],
+            "loop": true,
+            "frame_time": 0.075,
+        },
+        "layer0.tint": [215, 215, 220],
+        "layer0.opacity": 1.0,
+        "content_margin": [8, 8]
+    },
+    // Sidebar icons disabled
+    {
+        "class": "icon_file_type",
+        "settings": ["no_sidebar_icons"],
         "content_margin": [0,0]
     },
     {
         "class": "icon_folder",
+        "settings": ["no_sidebar_icons"],
         "content_margin": [0,0]
     },
     {
         "class": "icon_folder_loading",
+        "settings": ["no_sidebar_icons"],
         "content_margin": [0,0]
     },
 
