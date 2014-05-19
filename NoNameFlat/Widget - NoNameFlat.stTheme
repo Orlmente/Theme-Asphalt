@@ -2,29 +2,29 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>author</key>
-	<string> </string>
-	<key>comment</key>
-	<string>NoNameFlat</string>
-	<key>name</key>
-	<string>NoNameFlat</string>
-	<key>settings</key>
-	<array>
-		<dict>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#1e1e23</string>
-				<key>caret</key>
-				<string>#d3d3d3</string>
-				<key>foreground</key>
-				<string>#d3d3d3</string>
-				<key>invisibles</key>
-				<string>#747474</string>
-				<key>selection</key>
-				<string>#3c3c3c</string>
-			</dict>
-		</dict>
-	</array>
+    <key>author</key>
+    <string>O'rlmente?</string>
+    <key>comment</key>
+    <string>NoNameFlat Widget Theme - v1.0</string>
+    <key>name</key>
+    <string>NoNameFlat Widget</string>
+    <key>settings</key>
+    <array>
+        <dict>
+            <key>settings</key>
+            <dict>
+                <key>background</key>
+                <string>#1E1E23</string>
+                <key>caret</key>
+                <string>#D2D2D7</string>
+                <key>foreground</key>
+                <string>#D2D2D7</string>
+                <key>invisibles</key>
+                <string>#737378</string>
+                <key>selection</key>
+                <string>#3C3C41</string>
+            </dict>
+        </dict>
+    </array>
 </dict>
 </plist>
