@@ -20,19 +20,19 @@
 	},
 	{
 		"class": "tabset_control",
-		"settings": ["asphalt_tabs_small"],
+		"settings": ["theme_asphalt_tabs_small"],
 		"layer0.texture": "Theme - NoNameFlat/NoNameFlat/tabs-small/tab-small-background.png",
 		"tab_height": 30
 	},
 	{
 		"class": "tabset_control",
-		"settings": ["asphalt_tabs_big"],
+		"settings": ["theme_asphalt_tabs_big"],
 		"layer0.texture": "Theme - NoNameFlat/NoNameFlat/tabs-big/tab-big-background.png",
 		"tab_height": 65
 	},
 	{
 		"class": "tabset_control",
-		"settings": ["mouse_wheel_switches_tabs"],
+		"settings": ["theme_asphalt_enable_mouse_tabs_switch"],
 		"mouse_wheel_switch": true
 	},
 
@@ -47,14 +47,11 @@
 		"layer0.texture": "Theme - NoNameFlat/NoNameFlat/tab-inactive.png",
 		"layer1.texture": "Theme - NoNameFlat/NoNameFlat/tab-active.png",
 		"layer2.texture": "Theme - NoNameFlat/NoNameFlat/tab-hover.png",
-		//  - Inactive tab settings
 		"layer0.inner_margin": [0,0],
-		"layer0.opacity": 1.0,
-		//  - Active tab setting
 		"layer1.inner_margin": [0,0],
-		"layer1.opacity": 0.0,
-		//  - Hover tab setting
 		"layer2.inner_margin": [0,0],
+		"layer0.opacity": 1.0,
+		"layer1.opacity": 0.0,
 		"layer2.opacity": 0.0
 	},
 	{
@@ -88,7 +85,7 @@
 	{
 		//  - Modified tab state
 		"class": "tab_control",
-		"settings": ["asphalt_tabs_big"],
+		"settings": ["theme_asphalt_tabs_big"],
 		"attributes": ["dirty"],
 		"layer0.texture": "Theme - NoNameFlat/NoNameFlat/tabs-big/tab-big-inactive.png",
 		"layer1.texture": "Theme - NoNameFlat/NoNameFlat/tabs-big/tab-big-active.png",
@@ -97,7 +94,7 @@
 	{
 		//  - Modified tab state
 		"class": "tab_control",
-		"settings": ["asphalt_tabs_small"],
+		"settings": ["theme_asphalt_tabs_small"],
 		"attributes": ["dirty"],
 		"layer0.texture": "Theme - NoNameFlat/NoNameFlat/tabs-small/tab-small-inactive.png",
 		"layer1.texture": "Theme - NoNameFlat/NoNameFlat/tabs-small/tab-small-active.png",
@@ -106,7 +103,7 @@
 	{
 		//  - Modified tab state
 		"class": "tab_control",
-		"settings": ["asphalt_dirty_tabs"],
+		"settings": ["theme_asphalt_dirty_tabs"],
 		"attributes": ["dirty"],
 		"layer0.texture": "Theme - NoNameFlat/NoNameFlat/tab-inactive-modified.png",
 		"layer1.texture": "Theme - NoNameFlat/NoNameFlat/tab-active-modified.png",
@@ -115,7 +112,7 @@
 	{
 		//  - Modified tab state
 		"class": "tab_control",
-		"settings": ["asphalt_dirty_tabs","asphalt_tabs_small"],
+		"settings": ["theme_asphalt_dirty_tabs","theme_asphalt_tabs_small"],
 		"attributes": ["dirty"],
 		"layer0.texture": "Theme - NoNameFlat/NoNameFlat/tabs-small/tab-small-inactive-modified.png",
 		"layer1.texture": "Theme - NoNameFlat/NoNameFlat/tabs-small/tab-small-active-modified.png",
@@ -124,7 +121,7 @@
 	{
 		//  - Modified tab state
 		"class": "tab_control",
-		"settings": ["asphalt_dirty_tabs","asphalt_tabs_big"],
+		"settings": ["theme_asphalt_dirty_tabs","theme_asphalt_tabs_big"],
 		"attributes": ["dirty"],
 		"layer0.texture": "Theme - NoNameFlat/NoNameFlat/tabs-big/tab-big-inactive-modified.png",
 		"layer1.texture": "Theme - NoNameFlat/NoNameFlat/tabs-big/tab-big-active-modified.png",
@@ -144,7 +141,7 @@
 	{
 		//  - Color inactive tab
 		"class": "tab_label",
-		"settings": ["asphalt_color_inactive_tabs"]
+		"settings": ["theme_asphalt_color_inactive_tabs"]
 		//  - actually this does nothing ;)
 	},
 	{ 
@@ -509,7 +506,7 @@
 	},
 
 /////////////////
-// UPDATE DIALOG ???
+// DIALOGS
 //
 
 	{
@@ -520,7 +517,7 @@
 
 	{
 		"class": "progress_gauge_control",
-		"layer0.tint": [215, 215, 220, 255],
+		"layer0.tint": [195, 65, 65, 255],
 		"layer0.opacity": 1.0,
 		"content_margin": [0, 6]
 	},
@@ -595,7 +592,7 @@
 	// Status bar button
 	{
 		"class": "status_button",
-		"min_size": [90, 0]
+		"min_size": [100, 0]
 	},
 	// Status bar label
 	{
@@ -607,7 +604,7 @@
 	{
 		"class": "label_control",
 		"parents": [{"class": "status_bar"}],
-		"settings": ["asphalt_status_bar_brighter"],
+		"settings": ["theme_asphalt_status_bar_brighter"],
 		"color": [145, 145, 150, 255]
 	},
 
@@ -621,7 +618,6 @@
 		"layer0.texture": "",
 		"layer0.opacity": 1,
 		"layer0.tint": [40, 40, 45],
-		// "layer0.inner_margin": [1,5,2,1],
 		"content_margin": [0,5,0,5]
 	},
 	// Sidebar tree
@@ -636,8 +632,8 @@
 	// Sidebar tree padding medium
 	{
 		"class": "sidebar_tree",
-		"settings": ["asphalt_sidebar_medium"],
-		"row_padding": [8,4],
+		"settings": ["theme_asphalt_sidebar_small"],
+		"row_padding": [8,2],
 		"indent": 16,
 		"indent_offset": 16,
 		"indent_top_level": false
@@ -645,7 +641,7 @@
 	// Sidebar tree padding large
 	{
 		"class": "sidebar_tree",
-		"settings": ["asphalt_sidebar_large"],
+		"settings": ["theme_asphalt_sidebar_big"],
 		"row_padding": [8,5],
 		"indent": 16,
 		"indent_offset": 16,
@@ -667,7 +663,7 @@
 	// Sidebar heading
 	{
 		"class": "sidebar_heading",
-		"color": [215, 65, 65, 255], // THEME "colored" COLOUR
+		"color": [215, 65, 65, 255],
 		"font.bold": true
 	},
 	// Sidebar heading selected
@@ -890,19 +886,19 @@
 	// Sidebar icons disabled
 	{
 		"class": "icon_file_type",
-		"settings": ["asphalt_no_sidebar_icons"],
+		"settings": ["theme_asphalt_hide_sidebar_icons"],
 		"layer0.texture": "",
 		"content_margin": [0,0]
 	},
 	{
 		"class": "icon_folder",
-		"settings": ["asphalt_no_sidebar_icons"],
+		"settings": ["theme_asphalt_hide_sidebar_icons"],
 		"layer0.texture": "",
 		"content_margin": [0,0]
 	},
 	{
 		"class": "icon_folder_loading",
-		"settings": ["asphalt_no_sidebar_icons"],
+		"settings": ["theme_asphalt_hide_sidebar_icons"],
 		"layer0.texture": "",
 		"content_margin": [0,0]
 	},
@@ -945,11 +941,37 @@
 	{
 		"class": "text_line_control",
 		"layer0.texture": "",
-		"layer0.tint": [30, 30, 35], // -01
+		"layer0.tint": [30, 30, 35],
 		"layer0.opacity": 1,
-		"content_margin": [4, 6, 15, 0],
-		"layer0.inner_margin": [0,0]
+		"layer0.inner_margin": [0,0],
+		"content_margin": [5, 3]
 	},
+	{
+		"class": "text_line_control",
+		"settings": ["theme_asphalt_show_input_dropdowon"],
+		"layer0.inner_margin": [4, 6, 4, 3]
+	},
+	{
+		"class": "dropdown_button_control",
+		"content_margin": [0, 0],
+		"layer0.texture": "Theme - NoNameFlat/NoNameFlat/icons/arrow_down.png",
+		"layer0.tint": [215, 215, 220, 255],
+		"layer0.opacity": 0,
+		"layer0.inner_margin": [4, 4]
+	},
+	{
+		"class": "dropdown_button_control",
+		"settings": ["theme_asphalt_show_input_dropdowon"],
+		"content_margin": [9, 7, 8, 6],
+		"layer0.opacity": 0.5
+	},
+	{
+		"class": "dropdown_button_control",
+		"attributes": ["hover"],
+		"layer0.tint": [215, 65, 65, 255],
+		"layer0.opacity": 1.0
+	},
+
 
 /////////////////
 // PANEL BACKGROUNDS
@@ -962,8 +984,27 @@
 		"layer0.inner_margin": [0,0],
 		"layer0.opacity": 1,
 		"layer0.tint": [30, 30, 35], // -00
-		"content_margin": 0
+		"content_margin": [0,0,0,10]
 	},
+    {
+        "class": "panel_close_button",
+        "layer0.texture": "Theme - NoNameFlat/NoNameFlat/icons/close-sidebar.png",
+        "layer0.opacity": 0.5,
+        "content_margin": [0, 0]
+    },
+    {
+        "class": "panel_close_button",
+        "settings": ["theme_asphalt_show_panel_close"],
+        "layer0.tint":[215, 215, 220, 255],
+        "content_margin": [8, 8]
+    },
+    {
+        "class": "panel_close_button",
+        "settings": ["theme_asphalt_show_panel_close"],
+        "attributes": ["hover"],
+        "layer0.tint":[215, 65, 65, 255],
+        "layer0.opacity": 1.0
+    },
 	// Quick panel background
 	{
 		"class": "overlay_control",
@@ -1102,16 +1143,16 @@
 		"layer0.tint": [215, 65, 65, 255],
 		"layer0.opacity": 1
 	},
-	// Button group left
-	{
-		"class": "icon_button_control",
-		"attributes": ["left"]
-	},
 	{
 		"class": "icon_button_control",
 		"attributes": ["selected"],
 		"layer0.tint": [215, 65, 65, 255],
 		"layer0.opacity": 1
+	},
+	// Button group left
+	{
+		"class": "icon_button_control",
+		"attributes": ["left"]
 	},
 	{
 		"class": "icon_button_control",
