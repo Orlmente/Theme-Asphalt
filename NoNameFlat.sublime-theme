@@ -1212,7 +1212,7 @@
 		"layer0.opacity": 1
 	},
 	{
-		"class": "icon_preserve_case",
+		"class": "icon_whole_word",
 		"parents": [{"class": "icon_button_control","attributes": ["pressed"]}],
 		"layer0.tint": [215, 215, 220, 255],
 		"layer0.opacity": 1
@@ -1269,7 +1269,7 @@
 		"layer0.opacity": 1
 	},
 	{
-		"class": "icon_whole_word",
+		"class": "icon_use_buffer",
 		"parents": [{"class": "icon_button_control","attributes": ["pressed"]}],
 		"layer0.tint": [215, 215, 220, 255],
 		"layer0.opacity": 1
