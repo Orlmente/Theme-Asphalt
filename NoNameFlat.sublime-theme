@@ -1383,7 +1383,7 @@
 		"layer0.opacity": 1
 	},
 	{
-		"class": "icon_in_selection",
+		"class": "icon_preserve_case",
 		"parents": [{"class": "icon_button_control","attributes": ["pressed"]}],
 		"layer0.tint": [215, 215, 220, 255],
 		"layer0.opacity": 1
