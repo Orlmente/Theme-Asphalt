@@ -1092,13 +1092,13 @@
 	},
 	{
 		"class": "icon_button_control",
-		"attributes": ["selected", "hover"],
+		"attributes": ["pressed"],
 		"layer0.tint": [215, 65, 65, 255],
 		"layer0.opacity": 1
 	},
 	{
 		"class": "icon_button_control",
-		"attributes": ["selected"],
+		"attributes": ["selected", "hover"],
 		"layer0.tint": [215, 65, 65, 255],
 		"layer0.opacity": 1
 	},
