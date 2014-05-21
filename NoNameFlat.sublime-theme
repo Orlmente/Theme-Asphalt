@@ -1107,10 +1107,11 @@
 		"class": "icon_button_control",
 		"attributes": ["left"]
 	},
-	// Button group left
 	{
 		"class": "icon_button_control",
-		"attributes": ["left"]
+		"attributes": ["selected"],
+		"layer0.tint": [215, 65, 65, 255],
+		"layer0.opacity": 1
 	},
 	{
 		"class": "icon_button_control",
