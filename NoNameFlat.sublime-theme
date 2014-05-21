@@ -1351,7 +1351,7 @@
 		"layer0.opacity": 1
 	},
 	{
-		"class": "icon_use_buffer",
+		"class": "icon_in_selection",
 		"parents": [{"class": "icon_button_control","attributes": ["pressed"]}],
 		"layer0.tint": [215, 215, 220, 255],
 		"layer0.opacity": 1
