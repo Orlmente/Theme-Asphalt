@@ -1159,6 +1159,12 @@
 		"layer0.tint": [215, 215, 220, 255],
 		"layer0.opacity": 1
 	},
+	{
+		"class": "icon_regex",
+		"parents": [{"class": "icon_button_control","attributes": ["pressed"]}],
+		"layer0.tint": [215, 215, 220, 255],
+		"layer0.opacity": 1
+	},
 	// Case sensitive search button
 	{
 		"class": "icon_case",
@@ -1179,6 +1185,12 @@
 		"layer0.tint": [215, 215, 220, 255],
 		"layer0.opacity": 1
 	},
+	{
+		"class": "icon_case",
+		"parents": [{"class": "icon_button_control","attributes": ["pressed"]}],
+		"layer0.tint": [215, 215, 220, 255],
+		"layer0.opacity": 1
+	},
 	// Match whole word search button
 	{
 		"class": "icon_whole_word",
@@ -1196,6 +1208,12 @@
 	{
 		"class": "icon_whole_word",
 		"parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+		"layer0.tint": [215, 215, 220, 255],
+		"layer0.opacity": 1
+	},
+	{
+		"class": "icon_preserve_case",
+		"parents": [{"class": "icon_button_control","attributes": ["pressed"]}],
 		"layer0.tint": [215, 215, 220, 255],
 		"layer0.opacity": 1
 	},
@@ -1224,6 +1242,12 @@
 		"layer0.tint": [215, 215, 220, 255],
 		"layer0.opacity": 1
 	},
+	{
+		"class": "icon_context",
+		"parents": [{"class": "icon_button_control","attributes": ["pressed"]}],
+		"layer0.tint": [215, 215, 220, 255],
+		"layer0.opacity": 1
+	},
 	// Use search buffer
 	{
 		"class": "icon_use_buffer",
@@ -1241,6 +1265,12 @@
 	{
 		"class": "icon_use_buffer",
 		"parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+		"layer0.tint": [215, 215, 220, 255],
+		"layer0.opacity": 1
+	},
+	{
+		"class": "icon_whole_word",
+		"parents": [{"class": "icon_button_control","attributes": ["pressed"]}],
 		"layer0.tint": [215, 215, 220, 255],
 		"layer0.opacity": 1
 	},
@@ -1268,6 +1298,12 @@
 		"layer0.tint": [215, 215, 220, 255],
 		"layer0.opacity": 1
 	},
+	{
+		"class": "icon_reverse",
+		"parents": [{"class": "icon_button_control","attributes": ["pressed"]}],
+		"layer0.tint": [215, 215, 220, 255],
+		"layer0.opacity": 1
+	},
 	// Search wrap button
 	{
 		"class": "icon_wrap",
@@ -1288,6 +1324,12 @@
 		"layer0.tint": [215, 215, 220, 255],
 		"layer0.opacity": 1
 	},
+	{
+		"class": "icon_wrap",
+		"parents": [{"class": "icon_button_control","attributes": ["pressed"]}],
+		"layer0.tint": [215, 215, 220, 255],
+		"layer0.opacity": 1
+	},
 	// Search in selection button
 	{
 		"class": "icon_in_selection",
@@ -1305,6 +1347,12 @@
 	{
 		"class": "icon_in_selection",
 		"parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+		"layer0.tint": [215, 215, 220, 255],
+		"layer0.opacity": 1
+	},
+	{
+		"class": "icon_use_buffer",
+		"parents": [{"class": "icon_button_control","attributes": ["pressed"]}],
 		"layer0.tint": [215, 215, 220, 255],
 		"layer0.opacity": 1
 	},
@@ -1334,6 +1382,12 @@
 		"layer0.tint": [215, 215, 220, 255],
 		"layer0.opacity": 1
 	},
+	{
+		"class": "icon_in_selection",
+		"parents": [{"class": "icon_button_control","attributes": ["pressed"]}],
+		"layer0.tint": [215, 215, 220, 255],
+		"layer0.opacity": 1
+	},
 
 /////////////////
 // BOTTOM PANEL ICONS - GROUP 4
@@ -1356,6 +1410,12 @@
 	{
 		"class": "icon_highlight",
 		"parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+		"layer0.tint": [215, 215, 220, 255],
+		"layer0.opacity": 1
+	},
+	{
+		"class": "icon_highlight",
+		"parents": [{"class": "icon_button_control","attributes": ["pressed"]}],
 		"layer0.tint": [215, 215, 220, 255],
 		"layer0.opacity": 1
 	}
