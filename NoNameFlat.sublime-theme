@@ -1,3 +1,9 @@
+//////////////////////////////////
+// 
+// Theme Asphalt (DEFAULT)
+// Red rgb(215, 65, 65)
+// 
+//////////////////////////////////
 [
 //////////////////////////////////
 // 
@@ -204,7 +210,8 @@
 		{
 			// - Tab close button
 			"class": "tab_close_button",
-			"content_margin": [10, 0],
+			// "content_margin": [10, 0],
+			"content_margin": [8, 8],
 			// Tab close default settings
 			"layer0.texture": "Theme - NoNameFlat/NoNameFlat/icons/close.png",
 			"layer0.tint": [215, 215, 220, 255],
@@ -219,13 +226,13 @@
 			"layer3.opacity": 0.0
 		},
 		{
-			// - Tab button size
+			// - Tab button (inactive)
 			"class": "tab_close_button",
 			"settings": ["show_tab_close_buttons"],
-			"content_margin": [8, 8]
+			"layer0.opacity": 0
 		},
 		{
-			// - Hover (inactive)
+			// - Tab button Hover (inactive)
 			"class": "tab_close_button",
 			"parents": [{"class": "tab_control", "attributes": ["hover"]}],
 			"layer0.tint": [215, 215, 220, 255],
@@ -276,6 +283,37 @@
 			"layer0.tint": [215, 65, 65, 255],
 			"layer0.opacity": 1.0
 		},
+		// with dirty tabs
+		/*  */
+		{
+			// - Tab dirty button
+			"class": "tab_close_button",
+			"parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+			"settings": ["theme_asphalt_show_dirty_tabs"],
+			"layer0.texture": "Theme - NoNameFlat/NoNameFlat/icons/close.png",
+			"layer0.tint": [215, 215, 220, 255],
+			"layer0.opacity": 0
+		},
+		{
+			// - Tab dirty button selected hover
+			"class": "tab_close_button",
+			"parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
+			"settings": ["theme_asphalt_show_dirty_tabs"],
+			"layer0.texture": "Theme - NoNameFlat/NoNameFlat/icons/close.png",
+			"layer0.tint": [215, 215, 220, 255],
+			"layer0.opacity": 0.5
+		},
+		{
+			// - Tab dirty button hover
+			"class": "tab_close_button",
+			"parents": [{"class": "tab_control", "attributes": ["dirty", "hover"]}],
+			"settings": ["theme_asphalt_show_dirty_tabs"],
+			"layer0.texture": "Theme - NoNameFlat/NoNameFlat/icons/close.png",
+			"layer0.tint": [215, 215, 220, 255],
+			"layer0.opacity": 0.5
+		},
+		/*  */
+		// ..............
 		{
 			// - Tab dirty icon hover
 			"class": "tab_close_button",
@@ -291,7 +329,7 @@
 			"class": "tab_control",
 			"settings": ["!show_tab_close_buttons", "highlight_modified_tabs"],
 			"attributes": ["dirty"],
-			"content_margin": [22, 26, 15, 4]
+			"content_margin": [20, 0, 10, 0]
 		},
 		{
 			// - Tab dirty button (close button hidden)
@@ -368,7 +406,7 @@
 		{
 			"class": "fold_button_control",
 			"attributes": ["hover"],
-			"layer0.tint": [195, 65, 65, 255],
+			"layer0.tint": [215, 65, 65, 255],
 			"layer0.opacity": 1
 		},
 		{
@@ -566,12 +604,12 @@
 	//  ------------------------------------------------------
 		{
 			"class": "progress_bar_control",
-			"layer0.tint": [195, 65, 65, 255],
-			"layer0.opacity": 1.0,
+			"layer0.tint": [215, 65, 65, 255],
+			"layer0.opacity": 1.0
 		},
 		{
 			"class": "progress_gauge_control",
-			"layer0.tint": [195, 65, 65, 255],
+			"layer0.tint": [215, 65, 65, 255],
 			"layer0.opacity": 1.0,
 			"content_margin": [0, 6]
 		},
@@ -621,7 +659,12 @@
 			"font.bold": false,
 			"color": [215, 215, 200, 255]
 		},
-
+		{
+			// Button labels (pressed)
+			"class": "label_control",
+			"parents": [{"class": "button_control","attributes": ["pressed", "hover"]}],
+			"color": [215, 215, 220, 255]
+		},
 
 //////////////////////////////////
 // 
@@ -956,10 +999,10 @@
 				"Theme - NoNameFlat/icons/spinner3.png",
 				"Theme - NoNameFlat/icons/spinner2.png",
 				"Theme - NoNameFlat/icons/spinner1.png",
-				"Theme - NoNameFlat/icons/spinner.png",
+				"Theme - NoNameFlat/icons/spinner.png"
 			],
 			"loop": true,
-			"frame_time": 0.075,
+			"frame_time": 0.075
 		},
 		"layer0.tint": [215, 215, 220],
 		"layer0.opacity": 1.0,
