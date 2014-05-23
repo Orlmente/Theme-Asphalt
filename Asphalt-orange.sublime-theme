@@ -15,7 +15,7 @@
 	//  ------------------------------------------------------
 		{
 			"class": "tabset_control",
-			"layer0.texture": "Theme - NoNameFlat/NoNameFlat/tab-background.png",
+			"layer0.texture": "Theme - Asphalt/Asphalt/tab-background.png",
 			"layer0.inner_margin": [10,0],
 			"layer0.opacity": 1,
 			"content_margin": [0, 0, 0, 0],
@@ -28,13 +28,13 @@
 		{
 			"class": "tabset_control",
 			"settings": ["theme_asphalt_tabs_small"],
-			"layer0.texture": "Theme - NoNameFlat/NoNameFlat/tabs-small/tab-small-background.png",
+			"layer0.texture": "Theme - Asphalt/Asphalt/tabs-small/tab-small-background.png",
 			"tab_height": 30
 		},
 		{
 			"class": "tabset_control",
 			"settings": ["theme_asphalt_tabs_big"],
-			"layer0.texture": "Theme - NoNameFlat/NoNameFlat/tabs-big/tab-big-background.png",
+			"layer0.texture": "Theme - Asphalt/Asphalt/tabs-big/tab-big-background.png",
 			"tab_height": 65
 		},
 		{
@@ -57,11 +57,11 @@
 			"content_margin": [20, 0, 20, 0],
 			"max_margin_trim": 0,
 			"hit_test_level": 0,
-			"layer0.texture": "Theme - NoNameFlat/NoNameFlat/tab-inactive.png",
-			"layer1.texture": "Theme - NoNameFlat/NoNameFlat/tab-active.png",
-			"layer2.texture": "Theme - NoNameFlat/NoNameFlat/tab-hover.png",
+			"layer0.texture": "Theme - Asphalt/Asphalt/tab-inactive.png",
+			"layer1.texture": "Theme - Asphalt/Asphalt/tab-active.png",
+			"layer2.texture": "Theme - Asphalt/Asphalt/tab-hover.png",
 			// layer3 used for dirty file tab indicator (settings -> theme_asphalt_show_dirty_tabs: true)
-			"layer3.texture": "Theme - NoNameFlat/NoNameFlat/tab-hover-dirty.png",
+			"layer3.texture": "Theme - Asphalt/Asphalt/tab-hover-dirty.png",
 			"layer0.inner_margin": [0,0],
 			"layer1.inner_margin": [0,0],
 			"layer2.inner_margin": [0,0],
@@ -96,30 +96,30 @@
 			//  - Modified tab state
 			"class": "tab_control",
 			"attributes": ["dirty"],
-			"layer0.texture": "Theme - NoNameFlat/NoNameFlat/tab-inactive.png",
-			"layer1.texture": "Theme - NoNameFlat/NoNameFlat/tab-active.png",
-			"layer2.texture": "Theme - NoNameFlat/NoNameFlat/tab-hover.png",
-			"layer3.texture": "Theme - NoNameFlat/NoNameFlat/tab-hover-dirty.png"
+			"layer0.texture": "Theme - Asphalt/Asphalt/tab-inactive.png",
+			"layer1.texture": "Theme - Asphalt/Asphalt/tab-active.png",
+			"layer2.texture": "Theme - Asphalt/Asphalt/tab-hover.png",
+			"layer3.texture": "Theme - Asphalt/Asphalt/tab-hover-dirty.png"
 		},
 		{
 			//  - Modified tab state
 			"class": "tab_control",
 			"settings": ["theme_asphalt_tabs_big"],
 			"attributes": ["dirty"],
-			"layer0.texture": "Theme - NoNameFlat/NoNameFlat/tabs-big/tab-big-inactive.png",
-			"layer1.texture": "Theme - NoNameFlat/NoNameFlat/tabs-big/tab-big-active.png",
-			"layer2.texture": "Theme - NoNameFlat/NoNameFlat/tabs-big/tab-big-hover.png",
-			"layer3.texture": "Theme - NoNameFlat/NoNameFlat/tabs-big/tab-big-hover-dirty.png"
+			"layer0.texture": "Theme - Asphalt/Asphalt/tabs-big/tab-big-inactive.png",
+			"layer1.texture": "Theme - Asphalt/Asphalt/tabs-big/tab-big-active.png",
+			"layer2.texture": "Theme - Asphalt/Asphalt/tabs-big/tab-big-hover.png",
+			"layer3.texture": "Theme - Asphalt/Asphalt/tabs-big/tab-big-hover-dirty.png"
 		},
 		{
 			//  - Modified tab state
 			"class": "tab_control",
 			"settings": ["theme_asphalt_tabs_small"],
 			"attributes": ["dirty"],
-			"layer0.texture": "Theme - NoNameFlat/NoNameFlat/tabs-small/tab-small-inactive.png",
-			"layer1.texture": "Theme - NoNameFlat/NoNameFlat/tabs-small/tab-small-active.png",
-			"layer2.texture": "Theme - NoNameFlat/NoNameFlat/tabs-small/tab-small-hover.png",
-			"layer3.texture": "Theme - NoNameFlat/NoNameFlat/tabs-small/tab-small-hover-dirty.png"
+			"layer0.texture": "Theme - Asphalt/Asphalt/tabs-small/tab-small-inactive.png",
+			"layer1.texture": "Theme - Asphalt/Asphalt/tabs-small/tab-small-active.png",
+			"layer2.texture": "Theme - Asphalt/Asphalt/tabs-small/tab-small-hover.png",
+			"layer3.texture": "Theme - Asphalt/Asphalt/tabs-small/tab-small-hover-dirty.png"
 		},
 		{
 			//  - Modified tab state
@@ -148,14 +148,14 @@
 			"class": "tab_control",
 			"settings": ["theme_asphalt_show_dirty_tabs", "theme_asphalt_tabs_small"],
 			"attributes": ["dirty"],
-			"layer3.texture": "Theme - NoNameFlat/NoNameFlat/tabs-small/tab-small-hover-dirty.png"
+			"layer3.texture": "Theme - Asphalt/Asphalt/tabs-small/tab-small-hover-dirty.png"
 		},
 		{
 			//  - Modified tab state
 			"class": "tab_control",
 			"settings": ["theme_asphalt_show_dirty_tabs", "theme_asphalt_tabs_big"],
 			"attributes": ["dirty"],
-			"layer3.texture": "Theme - NoNameFlat/NoNameFlat/tabs-big/tab-big-hover-dirty.png"
+			"layer3.texture": "Theme - Asphalt/Asphalt/tabs-big/tab-big-hover-dirty.png"
 		},
 	//  ========================================================
 	//  - Tab labels
@@ -213,7 +213,7 @@
 			// "content_margin": [10, 0],
 			"content_margin": [8, 8],
 			// Tab close default settings
-			"layer0.texture": "Theme - NoNameFlat/NoNameFlat/icons/close.png",
+			"layer0.texture": "Theme - Asphalt/Asphalt/icons/close.png",
 			"layer0.tint": [215, 215, 220, 255],
 			"layer0.opacity": 0,
 			"layer0.inner_margin": [0, 0],
@@ -263,7 +263,7 @@
 			// - Tab dirty button
 			"class": "tab_close_button",
 			"parents": [{"class": "tab_control", "attributes": ["dirty"]}],
-			"layer0.texture": "Theme - NoNameFlat/NoNameFlat/icons/file-dirty.png",
+			"layer0.texture": "Theme - Asphalt/Asphalt/icons/file-dirty.png",
 			"layer0.tint": [245, 175, 35, 255],
 			"layer0.opacity": 0.5
 		},
@@ -271,7 +271,7 @@
 			// - Tab dirty button selected hover
 			"class": "tab_close_button",
 			"parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
-			"layer0.texture": "Theme - NoNameFlat/NoNameFlat/icons/file-dirty.png",
+			"layer0.texture": "Theme - Asphalt/Asphalt/icons/file-dirty.png",
 			"layer0.tint": [245, 175, 35, 255],
 			"layer0.opacity": 1.0
 		},
@@ -279,7 +279,7 @@
 			// - Tab dirty button hover
 			"class": "tab_close_button",
 			"parents": [{"class": "tab_control", "attributes": ["dirty", "hover"]}],
-			"layer0.texture": "Theme - NoNameFlat/NoNameFlat/icons/file-dirty.png",
+			"layer0.texture": "Theme - Asphalt/Asphalt/icons/file-dirty.png",
 			"layer0.tint": [245, 175, 35, 255],
 			"layer0.opacity": 1.0
 		},
@@ -290,7 +290,7 @@
 			"class": "tab_close_button",
 			"parents": [{"class": "tab_control", "attributes": ["dirty"]}],
 			"settings": ["theme_asphalt_show_dirty_tabs"],
-			"layer0.texture": "Theme - NoNameFlat/NoNameFlat/icons/close.png",
+			"layer0.texture": "Theme - Asphalt/Asphalt/icons/close.png",
 			"layer0.tint": [215, 215, 220, 255],
 			"layer0.opacity": 0
 		},
@@ -299,7 +299,7 @@
 			"class": "tab_close_button",
 			"parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
 			"settings": ["theme_asphalt_show_dirty_tabs"],
-			"layer0.texture": "Theme - NoNameFlat/NoNameFlat/icons/close.png",
+			"layer0.texture": "Theme - Asphalt/Asphalt/icons/close.png",
 			"layer0.tint": [215, 215, 220, 255],
 			"layer0.opacity": 0.5
 		},
@@ -308,7 +308,7 @@
 			"class": "tab_close_button",
 			"parents": [{"class": "tab_control", "attributes": ["dirty", "hover"]}],
 			"settings": ["theme_asphalt_show_dirty_tabs"],
-			"layer0.texture": "Theme - NoNameFlat/NoNameFlat/icons/close.png",
+			"layer0.texture": "Theme - Asphalt/Asphalt/icons/close.png",
 			"layer0.tint": [215, 215, 220, 255],
 			"layer0.opacity": 0.5
 		},
@@ -319,7 +319,7 @@
 			"class": "tab_close_button",
 			"parents": [{"class": "tab_control", "attributes": ["dirty"]}],
 			"attributes": ["hover"],
-			"layer0.texture": "Theme - NoNameFlat/NoNameFlat/icons/close.png",
+			"layer0.texture": "Theme - Asphalt/Asphalt/icons/close.png",
 			"layer0.tint": [245, 175, 35, 255],
 			"layer0.opacity": 1.0
 		},
@@ -351,7 +351,7 @@
 		{
 			"class": "scroll_tabs_left_button",
 			"content_margin": [9, 7, 8, 6],
-			"layer0.texture": "Theme - NoNameFlat/NoNameFlat/icons/arrow_left.png",
+			"layer0.texture": "Theme - Asphalt/Asphalt/icons/arrow_left.png",
 			"layer0.tint": [215, 215, 220, 255],
 			"layer0.opacity": 0.5,
 			"layer0.inner_margin": 0
@@ -365,7 +365,7 @@
 		{
 			"class": "scroll_tabs_right_button",
 			"content_margin": [9, 7, 8, 6],
-			"layer0.texture": "Theme - NoNameFlat/NoNameFlat/icons/arrow_right.png",
+			"layer0.texture": "Theme - Asphalt/Asphalt/icons/arrow_right.png",
 			"layer0.tint": [215, 215, 220, 255],
 			"layer0.opacity": 0.5,
 			"layer0.inner_margin": 0
@@ -382,7 +382,7 @@
 		{
 			"class": "show_tabs_dropdown_button",
 			"content_margin": [9, 7, 8, 6],
-			"layer0.texture": "Theme - NoNameFlat/NoNameFlat/icons/arrow_down.png",
+			"layer0.texture": "Theme - Asphalt/Asphalt/icons/arrow_down.png",
 			"layer0.tint": [215, 215, 220, 255],
 			"layer0.opacity": 0.5
 		},
@@ -397,7 +397,7 @@
 	//  ------------------------------------------------------
 		{
 			"class": "fold_button_control",
-			"layer0.texture": "Theme - NoNameFlat/NoNameFlat/icons/fold-marker-closed.png",
+			"layer0.texture": "Theme - Asphalt/Asphalt/icons/fold-marker-closed.png",
 			"layer0.tint": [215, 215, 220, 255],
 			"layer0.opacity": 0.5,
 			"layer0.inner_margin": 0,
@@ -412,7 +412,7 @@
 		{
 			"class": "fold_button_control",
 			"attributes": ["expanded"],
-			"layer0.texture": "Theme - NoNameFlat/NoNameFlat/icons/fold-marker-open.png"
+			"layer0.texture": "Theme - Asphalt/Asphalt/icons/fold-marker-open.png"
 		},
 		{
 			"class": "fold_button_control",
@@ -834,7 +834,7 @@
 	// Sidebar file close
 	{
 		"class": "close_button",
-		"layer0.texture": "Theme - NoNameFlat/NoNameFlat/icons/close-sidebar.png",
+		"layer0.texture": "Theme - Asphalt/Asphalt/icons/close-sidebar.png",
 		"layer0.inner_margin": 0,
 		"layer0.tint": [215, 215, 220, 255],
 		"layer0.opacity": 0,
@@ -854,7 +854,7 @@
 	{
 		"class": "close_button",
 		"attributes": ["dirty"],
-		"layer0.texture": "Theme - NoNameFlat/NoNameFlat/icons/modified.png",
+		"layer0.texture": "Theme - Asphalt/Asphalt/icons/modified.png",
 		"layer0.opacity": 0.5,
 		"layer0.tint": [215, 215, 220, 255]
 	},
@@ -862,13 +862,13 @@
 		"class": "close_button",
 		"attributes": ["dirty"],
 		"parents": [{"class": "tree_row","attributes": ["selected"]}],
-		"layer0.texture": "Theme - NoNameFlat/NoNameFlat/icons/modified.png"
+		"layer0.texture": "Theme - Asphalt/Asphalt/icons/modified.png"
 	},
 	{
 		"class": "close_button",
 		"attributes": ["dirty"],
 		"parents": [{"class": "tree_row","attributes": ["hover"]}],
-		"layer0.texture": "Theme - NoNameFlat/NoNameFlat/icons/modified.png",
+		"layer0.texture": "Theme - Asphalt/Asphalt/icons/modified.png",
 		"layer0.opacity": 1
 	},
 	// Sidebar file close hover
@@ -881,7 +881,7 @@
 		"class": "close_button",
 		"attributes": ["dirty", "hover"],
 		"parents": [{"class": "tree_row","attributes": ["hover"]}],
-		"layer0.texture": "Theme - NoNameFlat/NoNameFlat/icons/close-sidebar.png",
+		"layer0.texture": "Theme - Asphalt/Asphalt/icons/close-sidebar.png",
 		"layer0.tint": [245, 175, 35, 255],
 		"layer0.opacity": 1
 	},
@@ -895,7 +895,7 @@
 	{
 		"class": "disclosure_button_control",
 		"content_margin": [8,8],
-		"layer0.texture": "Theme - NoNameFlat/NoNameFlat/icons/folder-closed.png",
+		"layer0.texture": "Theme - Asphalt/Asphalt/icons/folder-closed.png",
 		"layer0.tint": [245, 175, 35],
 		"layer0.opacity": 1,
 		"layer0.inner_margin": [8,8]
@@ -915,7 +915,7 @@
 	{
 		"class": "disclosure_button_control",
 		"attributes": ["expanded"],
-		"layer0.texture": "Theme - NoNameFlat/NoNameFlat/icons/folder-open.png"
+		"layer0.texture": "Theme - Asphalt/Asphalt/icons/folder-open.png"
 	},
 	{
 		"class": "disclosure_button_control",
@@ -926,7 +926,7 @@
 		"class": "disclosure_button_control",
 		"attributes": ["expanded"],
 		"parents": [{"class": "tree_row","attributes": ["selected"]}],
-		"layer0.texture": "Theme - NoNameFlat/NoNameFlat/icons/folder-open.png"
+		"layer0.texture": "Theme - Asphalt/Asphalt/icons/folder-open.png"
 	},
 	// Icons (build 3062+)
 	{
@@ -956,7 +956,7 @@
 	},
 	{
 		"class": "icon_folder",
-		"layer0.texture": "Theme - NoNameFlat/icons/folder.png",
+		"layer0.texture": "Theme - Asphalt/icons/folder.png",
 		"layer0.tint": [215, 215, 220],
 		"layer0.opacity": 0.5,
 		"content_margin": [8, 8]
@@ -985,7 +985,7 @@
 		[
 			{ "class": "tree_row", "attributes": ["expanded"] }
 		],
-		"layer0.texture": "Theme - NoNameFlat/icons/folder_open.png"
+		"layer0.texture": "Theme - Asphalt/icons/folder_open.png"
 	},
 	{
 		"class": "icon_folder_loading",
@@ -993,14 +993,14 @@
 		{
 			"keyframes":
 			[
-				"Theme - NoNameFlat/icons/spinner7.png",
-				"Theme - NoNameFlat/icons/spinner6.png",
-				"Theme - NoNameFlat/icons/spinner5.png",
-				"Theme - NoNameFlat/icons/spinner4.png",
-				"Theme - NoNameFlat/icons/spinner3.png",
-				"Theme - NoNameFlat/icons/spinner2.png",
-				"Theme - NoNameFlat/icons/spinner1.png",
-				"Theme - NoNameFlat/icons/spinner.png"
+				"Theme - Asphalt/icons/spinner7.png",
+				"Theme - Asphalt/icons/spinner6.png",
+				"Theme - Asphalt/icons/spinner5.png",
+				"Theme - Asphalt/icons/spinner4.png",
+				"Theme - Asphalt/icons/spinner3.png",
+				"Theme - Asphalt/icons/spinner2.png",
+				"Theme - Asphalt/icons/spinner1.png",
+				"Theme - Asphalt/icons/spinner.png"
 			],
 			"loop": true,
 			"frame_time": 0.075
@@ -1082,7 +1082,7 @@
 	{
 		"class": "dropdown_button_control",
 		"content_margin": [0, 0],
-		"layer0.texture": "Theme - NoNameFlat/NoNameFlat/icons/arrow_down.png",
+		"layer0.texture": "Theme - Asphalt/Asphalt/icons/arrow_down.png",
 		"layer0.tint": [215, 215, 220, 255],
 		"layer0.opacity": 0,
 		"layer0.inner_margin": [4, 4]
@@ -1116,7 +1116,7 @@
 	},
     {
         "class": "panel_close_button",
-        "layer0.texture": "Theme - NoNameFlat/NoNameFlat/icons/close-sidebar.png",
+        "layer0.texture": "Theme - Asphalt/Asphalt/icons/close-sidebar.png",
         "layer0.opacity": 0.5,
         "content_margin": [0, 0]
     },
@@ -1317,7 +1317,7 @@
 	// Regex search button
 	{
 		"class": "icon_regex",
-		"layer0.texture": "Theme - NoNameFlat/NoNameFlat/icons/regex.png",
+		"layer0.texture": "Theme - Asphalt/Asphalt/icons/regex.png",
 		"layer0.tint": [215, 215, 220, 255],
 		"layer0.opacity": 0.5,
 		"content_margin": [8,8]
@@ -1343,7 +1343,7 @@
 	// Case sensitive search button
 	{
 		"class": "icon_case",
-		"layer0.texture": "Theme - NoNameFlat/NoNameFlat/icons/casesens.png",
+		"layer0.texture": "Theme - Asphalt/Asphalt/icons/casesens.png",
 		"layer0.tint": [215, 215, 220, 255],
 		"layer0.opacity": 0.5,
 		"content_margin": [8,8]
@@ -1369,7 +1369,7 @@
 	// Match whole word search button
 	{
 		"class": "icon_whole_word",
-		"layer0.texture": "Theme - NoNameFlat/NoNameFlat/icons/wholeword.png",
+		"layer0.texture": "Theme - Asphalt/Asphalt/icons/wholeword.png",
 		"layer0.tint": [215, 215, 220, 255],
 		"layer0.opacity": 0.5,
 		"content_margin": [8,8]
@@ -1402,7 +1402,7 @@
 	// Show search context button
 	{
 		"class": "icon_context",
-		"layer0.texture": "Theme - NoNameFlat/NoNameFlat/icons/context.png",
+		"layer0.texture": "Theme - Asphalt/Asphalt/icons/context.png",
 		"layer0.tint": [215, 215, 220, 255],
 		"layer0.opacity": 0.5,
 		"content_margin": [8,8]
@@ -1428,7 +1428,7 @@
 	// Use search buffer
 	{
 		"class": "icon_use_buffer",
-		"layer0.texture": "Theme - NoNameFlat/NoNameFlat/icons/buffer.png",
+		"layer0.texture": "Theme - Asphalt/Asphalt/icons/buffer.png",
 		"layer0.tint": [215, 215, 220, 255],
 		"layer0.opacity": 0.5,
 		"content_margin": [8,8]
@@ -1459,7 +1459,7 @@
 	// Reverse search direction button (ST2 only)
 	{
 		"class": "icon_reverse",
-		"layer0.texture": "Theme - NoNameFlat/NoNameFlat/icons/reverse.png",
+		"layer0.texture": "Theme - Asphalt/Asphalt/icons/reverse.png",
 		"layer0.tint": [215, 215, 220, 255],
 		"layer0.opacity": 0.5,
 		"content_margin": [8,8]
@@ -1485,7 +1485,7 @@
 	// Search wrap button
 	{
 		"class": "icon_wrap",
-		"layer0.texture": "Theme - NoNameFlat/NoNameFlat/icons/wrap-open.png",
+		"layer0.texture": "Theme - Asphalt/Asphalt/icons/wrap-open.png",
 		"layer0.tint": [215, 215, 220, 255],
 		"layer0.opacity": 0.5,
 		"content_margin": [8,8]
@@ -1511,7 +1511,7 @@
 	// Search in selection button
 	{
 		"class": "icon_in_selection",
-		"layer0.texture": "Theme - NoNameFlat/NoNameFlat/icons/selection.png",
+		"layer0.texture": "Theme - Asphalt/Asphalt/icons/selection.png",
 		"layer0.tint": [215, 215, 220, 255],
 		"layer0.opacity": 0.5,
 		"content_margin": [8,8]
@@ -1543,7 +1543,7 @@
 	// Preserve case button
 	{
 		"class": "icon_preserve_case",
-		"layer0.texture": "Theme - NoNameFlat/NoNameFlat/icons/lock-open.png",
+		"layer0.texture": "Theme - Asphalt/Asphalt/icons/lock-open.png",
 		"layer0.tint": [215, 215, 220, 255],
 		"layer0.opacity": 0.5,
 		"content_margin": 8
@@ -1557,7 +1557,7 @@
 	{
 		"class": "icon_preserve_case",
 		"parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-		"layer0.texture": "Theme - NoNameFlat/NoNameFlat/icons/lock-closed.png",
+		"layer0.texture": "Theme - Asphalt/Asphalt/icons/lock-closed.png",
 		"layer0.tint": [30, 30, 35, 255],
 		"layer0.opacity": 1
 	},
@@ -1576,7 +1576,7 @@
 	// Highlight results button
 	{
 		"class": "icon_highlight",
-		"layer0.texture": "Theme - NoNameFlat/NoNameFlat/icons/highlight.png",
+		"layer0.texture": "Theme - Asphalt/Asphalt/icons/highlight.png",
 		"layer0.tint": [215, 215, 220, 255],
 		"layer0.opacity": 0.5,
 		"content_margin": [8,8]
