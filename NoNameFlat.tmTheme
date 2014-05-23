@@ -19,12 +19,24 @@
                 <string>#D2D2D7</string>
                 <key>foreground</key>
                 <string>#D2D2D7</string>
+                <!-- <key>guide</key> -->
+                <!-- <string>#000000</string> -->
+                <!-- <key>activeGuide</key> -->
+                <!-- <string>#000000</string> -->
                 <key>invisibles</key>
                 <string>#737378</string>
                 <key>lineHighlight</key>
                 <string>#28282D</string>
                 <key>selection</key>
                 <string>#505055</string>
+                <!-- <key>searchHighlight</key> -->
+                <!-- <string>#000000</string> -->
+                <!-- <key>bracketHighlight</key> -->
+                <!-- <string>#000000</string> -->
+                <!-- <key>gutter</key> -->
+                <!-- <string>#000000</string> -->
+                <!-- <key>gutterForeground</key> -->
+                <!-- <string>#000000</string> -->
             </dict>
         </dict>
         <dict>
