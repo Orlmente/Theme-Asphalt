@@ -8,19 +8,19 @@ Minimal and flat dark UI for Sublime Text 3 + custom syntax highlighting Colour 
 
 * 5 UI colour variations
 * Custom UI icons (bottom panels, buttons, sidebar icons, etc.)
-* Sidebar folder/files icons support (ST3 build 3062+), standard icons + JSON file type
+* Sidebar folder/files icons support (ST3 build 3062+), standard icons (bonus: JSON file type icon and .tmPreference)
 * Custom syntax highlighting colour scheme
 * Retina display support
 
 ***
 
-Asphalt UI takes inspiration from the great work of (in alphabetical order):
+Asphalt takes inspiration from the great work of (in alphabetical order):
 * [itsthatguy's Itg.Flat Theme](https://github.com/itsthatguy/theme-itg-flat),
 * [kkga's Spacegray Theme](https://github.com/kkga/spacegray),
 * [yabatadesign's Afterglow Theme](http://yabatadesign.github.io/afterglow-theme/).
 
 Asphalt Syntax Colour Scheme derived and extended from:
-[Base16](https://github.com/chriskempson/base16)
+* [Base16](https://github.com/chriskempson/base16)
 
 ***
 
@@ -31,30 +31,35 @@ Asphalt Syntax Colour Scheme derived and extended from:
 ![Asphalt](_screenshots_/Asphalt.png)
 
 Red on grey colour variation (default)
+[full size image](https://raw.githubusercontent.com/Orlmente/Theme-Asphalt/master/_screenshots_/Asphalt.png)
 
 #### Asphalt Orange
 
 ![Asphalt Orange](_screenshots_/Asphalt-orange.png)
 
 Orange on grey colour variation
+[full size image](https://raw.githubusercontent.com/Orlmente/Theme-Asphalt/master/_screenshots_/Asphalt-orange.png)
 
 #### Asphalt Green
 
 ![Asphalt Green](_screenshots_/Asphalt-green.png)
 
 Green on grey colour variation
+[full size image](https://raw.githubusercontent.com/Orlmente/Theme-Asphalt/master/_screenshots_/Asphalt-green.png)
 
 #### Asphalt Blue
 
 ![Asphalt Blue](_screenshots_/Asphalt-blue.png)
 
 Blue on grey colour variation
+[full size image](https://raw.githubusercontent.com/Orlmente/Theme-Asphalt/master/_screenshots_/Asphalt-blue.png)
 
 #### Asphalt Monochrome
 
 ![Asphalt Monochrome](_screenshots_/Asphalt-monochrome.png)
 
 Greyscale only colour variation
+[full size image](https://raw.githubusercontent.com/Orlmente/Theme-Asphalt/master/_screenshots_/Asphalt-monochrome.png)
 
 ***
 
@@ -86,7 +91,9 @@ or
 1. Open your ST `Packages` directory, found under `Sublime Text -> Preferences -> Browse Packages...` menu
 2. Clone the repo with this command:
 
-    git clone https://github.com/Orlmente/Theme-Asphalt "Theme - Asphalt"
+```
+git clone https://github.com/Orlmente/Theme-Asphalt "Theme - Asphalt"
+```
 
 ***
 
@@ -122,6 +129,8 @@ Once User's settings are open, just add the following code *(Note: Restart Subli
 
 #### Addictional settings 
 *("setting_name": "default value", // "alternative value" )*
+
+**Note: Don't forget to double-check for missing or trailing commas in preference file before saving the file!**
 
 Enable/Disable Sidebar icons
 ```json
@@ -181,9 +190,6 @@ Taller or smaller tabs
 }
 ```
 ![Tab Sizes](_screenshots_/tab_heights.png)
-
-**Note: Don't forget to double-check for missing or trailing commas in preference file before saving the file!**
-
 
 ***
 
