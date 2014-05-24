@@ -195,4 +195,4 @@ Taller or smaller tabs
 
 ### License
 
-MIT & WTFPL
+[MIT & WTFPL](https://github.com/Orlmente/Theme-Asphalt/blob/master/LICENSE)
