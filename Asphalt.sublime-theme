@@ -39,7 +39,7 @@
 		},
 		{
 			"class": "tabset_control",
-			"settings": ["theme_asphalt_enable_mouse_tabs_switch"],
+			"settings": ["theme_asphalt_mouse_tabs_switch"],
 			"mouse_wheel_switch": true
 		},
 	//  ========================================================
