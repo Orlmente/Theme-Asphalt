@@ -355,7 +355,7 @@
                 <string>#ff0007</string>
             </dict>
         </dict>
-        <!-- CSS -->
+        <!-- CSS/LESS -->
         <dict>
             <key>name</key>
             <string>Numbers css</string>
