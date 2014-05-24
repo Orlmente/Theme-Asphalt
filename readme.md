@@ -190,3 +190,9 @@ Taller or smaller tabs
 ### Thanks
 
 ....
+
+***
+
+### License
+
+MIT & WTFPL
