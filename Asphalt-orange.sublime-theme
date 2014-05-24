@@ -742,7 +742,7 @@
 		"layer0.texture": "",
 		"layer0.opacity": 1,
 		"layer0.tint": [40, 40, 45],
-		"content_margin": [0,5,0,5]
+		"content_margin": [0,5,0,0]
 	},
 	// Sidebar tree
 	{
