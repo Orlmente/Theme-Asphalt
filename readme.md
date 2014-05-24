@@ -77,7 +77,7 @@ The easiest way to install is using [Sublime Package Control](https://sublime.wb
 
 You can also install the theme manually:
 
-1. [Get the .zip](https://github.com/Orlmente/archive/master.zip)
+1. [Get the .zip](https://github.com/Orlmente/Theme-Asphalt/archive/master.zip)
 2. Unzip and rename the folder to `Theme - Asphalt`
 3. Copy the folder into `Packages` directory, which you can find using the menu item `Sublime Text -> Preferences -> Browse Packages...`
 
