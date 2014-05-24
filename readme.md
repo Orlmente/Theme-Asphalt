@@ -15,12 +15,12 @@ Minimal and flat dark UI for Sublime Text 3 + custom syntax highlighting Colour 
 ***
 
 Asphalt takes inspiration from the great work of (in alphabetical order):
-* [itsthatguy's Itg.Flat Theme](https://github.com/itsthatguy/theme-itg-flat),
-* [kkga's Spacegray Theme](https://github.com/kkga/spacegray),
-* [yabatadesign's Afterglow Theme](http://yabatadesign.github.io/afterglow-theme/).
+* [itsthatguy's Theme - Itg.Flat](https://github.com/itsthatguy/theme-itg-flat),
+* [kkga's Theme - Spacegray](https://github.com/kkga/spacegray),
+* [yabatadesign's Theme - Afterglow](http://yabatadesign.github.io/afterglow-theme/).
 
 Asphalt Syntax Colour Scheme derived and extended from:
-* [Base16](https://github.com/chriskempson/base16)
+* [chriskempson's Base16](https://github.com/chriskempson/base16)
 
 ***
 
@@ -101,7 +101,9 @@ git clone https://github.com/Orlmente/Theme-Asphalt "Theme - Asphalt"
 
 Activate this theme and color scheme by modifying your user preferences file, found under `Sublime Text -> Preferences -> Settings - User` menu.
 
-Once User's settings are open, just add the following code *(Note: Restart Sublime Text after activating the theme)*.
+Once User's settings are opened, just add the following code *(Restart Sublime Text after activating the theme)*.
+
+**Important: Don't forget to double-check for missing or trailing commas in preference file before saving the file!**
 
 #### Default setup
 
@@ -129,8 +131,6 @@ Once User's settings are open, just add the following code *(Note: Restart Subli
 
 #### Addictional settings 
 *("setting_name": "default value", // "alternative value" )*
-
-**Note: Don't forget to double-check for missing or trailing commas in preference file before saving the file!**
 
 Enable/Disable Sidebar icons
 ```json
@@ -190,12 +190,6 @@ Taller or smaller tabs
 }
 ```
 ![Tab Sizes](_screenshots_/tab_heights.png)
-
-***
-
-### Thanks
-
-....
 
 ***
 
