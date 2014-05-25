@@ -163,7 +163,7 @@ Enable previous entries selection dropdown for input fields and close button for
     "theme_asphalt_show_panel_close": false, // true
 }
 ```
-![Bottom Panel Extras](_screenshots_/botton_panel_extras.png)
+![Bottom Panel Extras](_screenshots_/bottom_panel_extras.png)
 
 ***
 Higher or lower padding for entries in sidebar

@@ -29,8 +29,10 @@
                 <string>#28282D</string>
                 <key>selection</key>
                 <string>#505055</string>
-                <!-- <key>searchHighlight</key> -->
-                <!-- <string>#000000</string> -->
+                <key>findHighlight</key>
+                <string>#87878C</string>
+                <key>findHighlightForeground</key>
+                <string>#D7D7DC</string>
                 <!-- <key>bracketHighlight</key> -->
                 <!-- <string>#000000</string> -->
                 <!-- <key>gutter</key> -->
