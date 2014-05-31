@@ -129,7 +129,7 @@ Once User's settings are opened, just add the following code *(Restart Sublime T
 
 ***
 
-#### Addictional settings 
+#### Additional settings 
 *("setting_name": "default value", // "alternative value" )*
 
 Enable/Disable Sidebar icons
